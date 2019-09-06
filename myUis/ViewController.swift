@@ -1,15 +1,15 @@
 //
 //  ViewController.swift
-//  LineChart
+//  myUis
 //
-//  Created by Nguyen Vu Nhat Minh on 25/8/17.
-//  Copyright © 2017 Nguyen Vu Nhat Minh. All rights reserved.
+//  Created by user on 06/09/2019.
+//  Copyright © 2019 Qodehub. All rights reserved.
 //
 
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     
     @IBOutlet weak var lineChart: LineChart!
     @IBOutlet weak var curvedlineChart: LineChart!
@@ -19,16 +19,14 @@ class ViewController: UIViewController {
         
         self.view.backgroundColor = UIColor.white
         
-        // Sample dataset
-//        let dataEntries = [PointEntry(value: 0, title: ""), PointEntry(value: 100, title: ""), PointEntry(value: 100, title: ""), PointEntry(value: 100, title: ""), PointEntry(value: 20, title: ""), PointEntry(value: 30, title: ""), PointEntry(value: 120, title: "")]
-        
+      
         let dataEntries = generateRandomEntries()
         
-
+        
         lineChart.dataEntries = dataEntries
         lineChart.showDots = true
         lineChart.isCurved = false
-       
+        
         curvedlineChart.dataEntries = dataEntries
         curvedlineChart.showDots = true
         curvedlineChart.isCurved = true
@@ -48,6 +46,7 @@ class ViewController: UIViewController {
         }
         return result
     }
-
-
+    
+    
 }
+
