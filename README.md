@@ -20,5 +20,10 @@ This code is demonstrates a way of animating circles and ucing cicrles to show d
 
 # Demo
  <img src="demo2.png" alt="Demo Image" width="360"/>
+ 
+ # Author
+ 
+Ewurafua Plange, plangette19@gmail.com
+
 
 
